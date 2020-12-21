@@ -1,3 +1,4 @@
+#!/bin/python3
 #Tokatl significa araña
 import getopt
 import sys
@@ -70,3 +71,5 @@ if __name__ == '__main__':
 
 		enumerar_urls(input_source,output_file,verbose)
 		print("Total de URLs encontradas: %d"%(len(lista_enlaces)))
+	else:
+		ayuda()
